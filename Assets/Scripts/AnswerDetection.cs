@@ -6,7 +6,10 @@ using UnityEngine;
 
 public class AnswerDetection : MonoBehaviour
 {
-    
+    public GameObject[] currentRow;
+    public GameObject[] answerKey;
+    public GameObject[] pins;
+    public GameObject hintGrid;
 
     void Start()
     {
